@@ -28,3 +28,12 @@ $ npm install @zlicom/autoprefixer --save-dev
   $ npm login
   $ pnpm publish
 ```
+
+[npm-version-image]: https://img.shields.io/npm/v/@zlicom/auto-prefixer.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/@zlicom/auto-prefixer
+
+[npm-downloads-image]: https://img.shields.io/npm/dm/@zlicom/auto-prefixer.svg?style=flat
+[npm-downloads-url]: https://npmcharts.com/compare/@zlicom/auto-prefixer?minimal=true
+
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE

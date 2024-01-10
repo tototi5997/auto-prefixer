@@ -1,11 +1,12 @@
 {
   "name": "@zlicom/auto-prefixer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/auto-prefixer.esm.js",
   "files": [
     "dist/auto-prefixer.esm.js",
-    "dist/index.d.ts"
+    "dist/index.d.ts",
+    "README.md"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,6 +16,9 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": [
+    "auto-prefixer"
+  ],
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",

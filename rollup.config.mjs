@@ -1,4 +1,5 @@
 import { defineConfig } from "rollup"
+import { terser } from "rollup-plugin-terser"
 import resolve from "rollup-plugin-node-resolve"
 // import commonjs from "@rollup/plugin-commonjs"
 import typescript from "rollup-plugin-typescript2"
@@ -26,6 +27,7 @@ export default defineConfig([
       },
     ],
     plugins: [
+      terser(),
       resolve(), // 查找打包第三方模块
       // commonjs(), // commonjs 转换成 es2015
       typescript(), // 解析 ts

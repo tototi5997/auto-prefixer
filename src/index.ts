@@ -65,7 +65,7 @@ export const $open = (url: string | URL | undefined, target?: string | undefined
 }
 
 // proxy location
-export const $location = new Proxy(Object.create(_location), {
+export const $location = new Proxy(Object.create(_location || {}), {
   get(_, key) {
     if (typeof Reflect.get(_location, key) === "function") {
       if (key === locationParams.REPLACE) {

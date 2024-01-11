@@ -29,6 +29,48 @@ $ npm install @zlicom/autoprefixer --save-dev
   $ pnpm publish
 ```
 
+# API
+
+`prefixerStr(inputStr: string)`
+
+返回一个带有前缀的字符串
+
+```javascript
+prefixerStr(); // /your-prefix
+prefixerStr('/api'); // /your-prefix/api
+```
+
+`$fetch(nput: RequestInfo | URL,
+  init?: RequestInit | undefined)`
+
+使用同 `window.fetch`
+
+`$open(
+  url: string | URL | undefined,
+  target?: string | undefined,
+  features?: string | undefined,)`
+
+使用同 `window.open`
+
+`$location`
+
+代理 `window.location` 的 `href` 属性和 `replace` 方法
+
+`registerWindow`
+
+注册 `$fetch`,`$open`和`$location` 到 window
+
+```jsx
+// src/index.js
+import { registerWindow } from '@web-common/auto-prefixer';
+
+const App = () => {
+  registerWindow();
+  return <Element></Element>;
+};
+```
+
+
 [npm-version-image]: https://img.shields.io/npm/v/@zlicom/auto-prefixer.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/@zlicom/auto-prefixer
 

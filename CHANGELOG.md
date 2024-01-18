@@ -1,3 +1,11 @@
+## <small>0.0.5 (2024-01-18)</small>
+
+* v0.0.5 ([9a4ce7e](https://github.com/tototi5997/auto-prefixer/commit/9a4ce7e))
+* feat: 新增 withoutPrefixer 方法，$locaiton 代理 get 修复 ([5b993ae](https://github.com/tototi5997/auto-prefixer/commit/5b993ae))
+* fix: 修改 readme ([54583ad](https://github.com/tototi5997/auto-prefixer/commit/54583ad))
+
+
+
 ## <small>0.0.4 (2024-01-10)</small>
 
 * feat: 版本信息更新 ([a1ef07a](https://github.com/tototi5997/auto-prefixer/commit/a1ef07a))

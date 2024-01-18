@@ -13,7 +13,7 @@
     "build": "rollup -c",
     "test": "jest",
     "publish": "npm publish --access public",
-    "changelog": "conventional-changelog -p -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p -i CHANGELOG.md -s -r 0"
   },
   "author": "",
   "license": "ISC",

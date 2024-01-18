@@ -12,7 +12,8 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
-    "publish": "npm publish --access public"
+    "publish": "npm publish --access public",
+    "changelog": "conventional-changelog -p -i CHANGELOG.md -s"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@types/jest": "^29.5.11",
     "babel-jest": "^29.7.0",
+    "conventional-changelog-cli": "^4.1.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "rollup": "^4.9.2",
